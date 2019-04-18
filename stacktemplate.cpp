@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#include<windows.h>
+
 using namespace std;
 template<class T>
 class stacker
@@ -62,7 +62,7 @@ class stacker
 
 int main()
 {
-	try{
+	
 		int datat;
 		cout<<"1.String\n2.Integer\n3.Float\nSELECT THE INPUT DATATYPE:";
 		cin>>datat;
@@ -122,10 +122,6 @@ int main()
 				
 	}
 }
-}catch(exception const& ex)
-{
-	cerr<<"EXCEPTION:"<<ex.what()<<endl;
-	return -1;
-}
+
 	return 0;
 }
